@@ -1,0 +1,362 @@
+/*--TopBanner Components
+==========================--*/
+.topFixedBanner{
+    background-image: url("../image/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 11rem;
+}
+.topTitle{
+      font-family: 'Montserreat',sans-serif;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 48px;
+  }
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+/*--Services Components
+==========================--*/
+.serviceMainTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.serviceName{
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.serviceDescription{
+    color: #7F7E7E;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.serviceCard{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.serviceCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+/*--TopNavigation Components
+=============================--*/
+.navTitle{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navTitleScroll{
+    font-family: 'Raleway', sans-serif;
+    color: #0073E6 !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition:background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,0.0)!important;
+}
+.navBackgroundScroll{
+    background-color:#ffffff !important;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition:background-color 400ms linear;
+    transition: background-color 400ms linear;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
+}
+.navItem{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.navItemScroll{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+    color: #2B2B2B !important;
+}
+/*--Analysis Components
+==========================--*/
+.des{
+    font-weight: 400;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+/*--Summary Components
+==========================--*/
+.SummarySection{
+    margin-top: 5rem;
+}
+.SummaryBanner{
+    background-image: url("../image/grass.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SummaryBannerOverlay {
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.countNumbr{
+    color: white;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.countTitle{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.countSection{
+    margin-top: 15%;
+}
+.cardTitle{
+    color: #2B2B2B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cardSubTitle{
+    color: #2B2B2B;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.iconBullet{
+    color: blue;
+    font-size: 16px;
+}
+.workCard{
+    margin-top: 14%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+    width: 300px;
+}
+/*--RecentProjects Components
+================================--*/
+.projectsCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px 2px 2px 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.projectsCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+.projectsCardTitle{
+    font-family: 'Montserreat', sans-serif;
+    font-size: 18px;
+   font-weight: 600;
+}
+.projectsCardDes{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+/*--Courses Components
+==============================--*/
+.coursImg {
+    width: 100%;
+   margin-bottom: 40px;
+}
+.coursTitle{
+    font-family: 'Montserreat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.coursDes{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.coursDetials{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: blue;
+}
+.coursDetials:hover{
+    text-decoration: none;
+}
+/*--Video Components
+==============================--*/
+.videoCard{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: white;
+    margin: 50px auto;
+}
+.playBtn{
+    color: blue;
+    font-size: 48px;
+    cursor: pointer;
+}
+.videoTitle{
+    color: blue;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.videoDes{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*--ClientReview Components
+==============================--*/
+.circleImg{
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+/*--Footer Components
+==============================--*/
+.footerSection{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.socialLink{
+    text-decoration: none;
+    color: #0073E6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.socialLink:hover{
+    text-decoration: none;
+    color:#0FFFB7;
+}
+.footerLink{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+.footerLink:hover{
+    text-decoration: none;
+    color: #0073E6;
+}
+.copyrightSection{
+    padding: 20px 20px 20px 20px;
+    background-color: #0073E6;
+}
+.copyrightLink{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.copyrightLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+/*--PageTop Components
+==============================--*/
+.topFixedPage{
+    background-image: url("../image/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topPageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topPageContent{
+    margin-top: 8rem;
+}
+.pageTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+}
+/*--Contact Components
+==============================--*/
+.form-control:focus{
+    border-radius: 2px !important;
+    color: #0073E6 !important;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2) !important;
+
+}
+
+/*--Project Details Button CSS Fix
+==================================--*/
+.link-style{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.link-style:hover{
+
+}
+/*--CourseDetails Page
+=======================--*/
+.topPageContentCourse{
+    margin-top: 5rem;
+}
+.courseFullTitle{
+    color: white;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+}
+.courseSubTitle{
+    color: greenyellow;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courseDetailsDes{
+    color: white;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+}
