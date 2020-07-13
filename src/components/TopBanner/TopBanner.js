@@ -9,7 +9,7 @@ class TopBanner extends Component {
                         <Container className="topContent">
                             <Row>
                                 <Col className="text-center">
-                                    <h1 className="topTitle">FREELANCER MASUD RANA</h1>
+                                    <h1 className="topTitle">MASUD RANA</h1>
                                     <h4 className="topSubTitle">Full Stack Web Developer</h4>
                                     <Button variant="primary">More Info</Button>
                                 </Col>
