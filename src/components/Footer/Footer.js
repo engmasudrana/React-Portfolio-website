@@ -18,7 +18,7 @@ class Footer extends Component {
                         </Col>
                         <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                             <h1 className="serviceName">Address</h1>
-                            <p className="serviceDescription">219 East Rampura, Rampura Dhaka-1219. Dhaka,Bangladesh</p>
+                            <p className="serviceDescription">East Rampura, Dhaka-1219. Dhaka,Bangladesh</p>
                             <p className="serviceDescription"><FontAwesomeIcon icon={faEnvelope}/> m.rana2018@yahoo.com</p>
                             <p className="serviceDescription"><FontAwesomeIcon icon={faPhone}/> +880 1521380593</p>
                         </Col>

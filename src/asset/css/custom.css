@@ -65,14 +65,14 @@
 .navTitle{
     font-family: 'Raleway', sans-serif;
     color: #ffffff !important;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 26px;
 }
 .navTitleScroll{
     font-family: 'Raleway', sans-serif;
     color: #0073E6 !important;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 26px;
 }
 .navBackground{
     -webkit-transition: background-color 400ms linear;
